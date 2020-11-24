@@ -25,6 +25,16 @@
     font-weight: bolder;
 }
 
+.block1_links > a{
+    text-decoration: underline;
+    color: rgb(168, 0, 0);
+}
+
+.clickhere {
+    font-style: italic; 
+    font-weight: bold;  
+}
+
 .block2 {
     display: flex;
     justify-content: space-around;
