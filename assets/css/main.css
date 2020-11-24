@@ -1,0 +1,154 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(249, 251, 254);
+
+}
+
+.navbar { 
+    background-color: rgb(160,0,0);
+    margin-bottom: 0px;
+    margin-top: 25px;
+    display: inline-block;
+    width: 100%;
+    font-family: 'Grandstander', cursive;    
+}
+
+.navbar_buttons {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0px 16px;
+    padding: 20px 110px 20px 60px;
+}
+
+.navbar_buttons > li {
+    display: inline;
+    text-align: center;
+}
+
+.navbar_buttons > li > h1 {
+    float: left;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.navbar_buttons > li > h1 > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    text-shadow: -2px 2px 2px rgb(54, 54, 54);
+}
+
+.navbar_buttons_pages > li > a {
+    display: inline;
+    font-family: "Lato";
+    padding: 15px;
+    text-decoration: none;
+    float: right;
+    font-size: 21px;
+    margin-top: 4px;
+    font-weight: bolder;
+}
+
+.navbar_buttons_pages > li > a:link {
+    color: white;
+    
+}
+
+.navbar_buttons_pages > li > a:visited {
+    color: white;
+    opacity: 0.6;
+}
+
+.navbar_buttons_pages > li > a:hover {
+    background-color: rgb(184, 36, 36);
+    opacity: 1.0;
+    transition: 0.3s;
+}
+
+.block1_text h2 {
+font-size: 25px;
+}
+
+.block1 {
+font-size: large;
+}
+
+.block1 a {
+    text-decoration: none;
+    color:black;
+    font-size: smaller;
+}
+
+.clickhere {
+    color: maroon;
+    font-style: italic;
+}
+
+.block2 {
+    margin: 1em 0;
+
+}
+.emaillist {
+    background-color: rgb(160,0,0);
+    padding: 20px;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    margin: 10px 50px;
+}
+
+.emaillist_text {
+    float: left;
+    text-shadow: -2px 2px 10px rgb(54, 54, 54);
+    padding: 30px 0;
+}
+
+.emaillist_text > h4 {
+    text-transform: capitalize;
+    font-size: 18px;
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.emaillist_text > h1 {
+    font-family: 'Grandstander', cursive;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 40px;
+    padding: 5px;
+    padding-top: 13px;
+    color: white;
+    text-align: center;
+}
+
+.emaillist_buttons {
+    float: right;
+    padding: 20px;
+    color: white;
+}
+
+#submitbutton {
+    float: right;
+    background-color: rgb(160,0,0);
+    border: solid 1px black;
+    color: white;
+    font-size: 18px;
+    padding: 8px;
+    box-shadow: -2px 2px 10px rgb(54, 54, 54);
+}
+
+footer {
+    background-color: white;
+    color: grey;
+    text-align: center;
+    padding: 20px;
+}
+
+footer > a > img {
+    height: 40px;
+}
+

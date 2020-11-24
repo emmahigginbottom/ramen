@@ -1,0 +1,58 @@
+
+.block1 {
+    height: 80vh;
+    background-image: url(../img/ramen.png);
+    background-color:rgb(249, 251, 254);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+}
+
+.block1_text {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    padding: 80px;
+    padding-top: 12%; 
+    width: 40%;
+}
+
+.block1_text h2 {
+    font-family: 'Grandstander', cursive;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.block2 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-content: center;
+} 
+
+.block2_text {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    padding: 120px 30px 30px 70px;
+    align-content: center;   
+}
+
+h2 {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.block2_img {
+    float: right; 
+    padding: 30px;
+    padding-right: 40px;
+    
+}
+
+.block2_img > img {
+    width: 40vw;
+    align-content: center;
+}
